@@ -1,15 +1,12 @@
-<!DOCTYPE html>
 <html>
-<head>
-    <meta charset="utf-8" lang="pl">
-    <link type="text/css" rel="stylesheet" href="../static/stylesheet.css">
-    <title></title>
-</head>
-<body>
+  <head>
+    <meta charset="utf-8">
+    <link type="text/css" rel="stylesheet" href="/static/stylesheet.css">
 
-    <center>
-     <iframe src="{{ url_for('static', filename='Jupyter.html')}}"></iframe>
-    </center>
-
-</body>
+  </head>
+  <body>
+    <div id = "map">
+      <iframe src="{{ url_for('show') }}"></iframe>
+    </div>
+  </body>
 </html>
