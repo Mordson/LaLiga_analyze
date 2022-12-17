@@ -1,4 +1,5 @@
 from flask import Flask,render_template
+from flask import url_for
 
 app = Flask(__name__)
 
@@ -10,10 +11,6 @@ def main():
 def show():
     return render_template('maps.html')
 
-@app.route('/contact')
-def contact():
-    return render_template('contact.html')
-
 @app.route('/about')
 def about():
     return render_template('about.html')
@@ -21,3 +18,7 @@ def about():
 @app.route('/home')
 def home():
     return render_template('index.html')
+
+@app.route('/github/Mordson/LaLiga_analyze')
+def github(user,repo):
+    return 'https://github.com/{}/{}'.format(user, repo)
