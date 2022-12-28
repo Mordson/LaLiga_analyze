@@ -16,8 +16,6 @@ pip install flask
 flask --app main.py run
 ```
 
-<h2>🍰 Contribution Guidelines:</h2>
-
   
   
 <h2>💻 Built with</h2>
