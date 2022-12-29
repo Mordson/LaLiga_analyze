@@ -4,7 +4,7 @@
 
 <h2>🛠️ Installation Steps:</h2>
 
-<p>1. Install flask in your</p>
+<p>1. Install flask at your environment</p>
 
 ```
 pip install flask
